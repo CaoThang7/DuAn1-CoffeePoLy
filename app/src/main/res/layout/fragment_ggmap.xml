@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/giaodiennguoidung">
+
+    <ImageView
+        android:id="@+id/backinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/ic_arrow"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/backgroundrcv"
+        style="@style/backgroundrcv"
+        android:layout_marginTop="16dp"
+        >
+
+        <Button
+        android:id="@+id/CS1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="CS1"
+        style="@style/btnSignUp"
+        />
+        <Button
+            android:id="@+id/CS2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="115dp"
+            android:text="CS2"
+            style="@style/btnSignUp"
+            />
+        <Button
+            android:id="@+id/CS3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="210dp"
+            android:text="CS3"
+            style="@style/btnSignUp"
+            />
+
+        <fragment
+            android:layout_below="@+id/CS3"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="366dp"
+            android:id="@+id/google_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Google Map"
+        style="@style/backgroundtv"/>
+
+
+</LinearLayout>

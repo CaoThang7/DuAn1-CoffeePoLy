@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "582832561204",
+    "firebase_url": "https://amiable-alcove-292812.firebaseio.com",
+    "project_id": "amiable-alcove-292812",
+    "storage_bucket": "amiable-alcove-292812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582832561204:android:73757561b46fc713793e61",
+        "android_client_info": {
+          "package_name": "com.example.duan1_coffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582832561204-9aq9k8ah91egq4jpob8pkul77lhmpupi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTWvYaRnpIyQP7LQH8FBDKr1aDt3wJ4N4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582832561204-9aq9k8ah91egq4jpob8pkul77lhmpupi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

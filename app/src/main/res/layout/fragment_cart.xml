@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:id="@+id/cart_layout_change">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<!--        <com.google.android.material.appbar.AppBarLayout-->
+<!--            android:id="@+id/bar_layout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <androidx.appcompat.widget.Toolbar-->
+<!--                android:id="@+id/toolbarMess"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#FFE0B2"-->
+<!--                >-->
+<!--                <TextView-->
+<!--                    android:id="@+id/username2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Giỏ hàng"-->
+
+<!--                    android:layout_toRightOf="@id/profile_image"-->
+<!--                    android:layout_toEndOf="@id/profile_image"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:textColor="@color/colorBlack"-->
+<!--                    />-->
+
+<!--            </androidx.appcompat.widget.Toolbar>-->
+
+<!--        </com.google.android.material.appbar.AppBarLayout>-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvCart"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tvTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Price: "
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF9800"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tvBackToShop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:text="Back To Shop"
+                android:textColor="#FFB74D"
+                android:textSize="18sp" />
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/tvChatWithUs"-->
+            <!--            android:layout_weight="1"-->
+            <!--            android:textAlignment="textEnd"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_margin="16dp"-->
+            <!--            android:text="Chat With Us"-->
+            <!--            android:textColor="#4DD0E1"-->
+            <!--            android:textSize="18sp" />-->
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCheckOut"
+            android:background="#FF9800"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order now!" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

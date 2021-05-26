@@ -1,0 +1,396 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <!--        <item name="colorAccent">@color/colorAccent</item>-->
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- DATE PICKER -->
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#FF5722</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextTieuDe">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextManhinhChao">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextDangKi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:text">Đăng Ký</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="logoDk">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_face</item>
+    </style>
+
+
+    <style name="EditLogin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="android:drawableLeft">@drawable/ic_account</item>
+        <item name="android:drawablePadding">10dp</item>
+
+
+    </style>
+
+    <style name="EditLogin2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="android:drawableLeft">@drawable/ic_keyblock</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="Checkbox">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">Lưu thông tin</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:buttonTint">#FFFFFF</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="btnDangNhap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:text">Đăng nhập</item>
+        <item name="android:background">@drawable/botron_button</item>
+    </style>
+
+    <style name="btnDangKi">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.4</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:text">Đăng kí</item>
+        <item name="android:background">@drawable/botron_button</item>
+    </style>
+
+    <style name="btnSignUp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">10dp</item>
+
+        <item name="android:background">@drawable/botron_button</item>
+    </style>
+
+    <style name="btnSignUp2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">10dp</item>
+
+        <item name="android:background">@drawable/botron_buttonfour</item>
+    </style>
+
+    <style name="btnTaiKhoanNguoiDung">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+
+        <item name="android:background">@drawable/botron_button</item>
+    </style>
+
+
+    <style name="btnTaiKhoanNguoiDung2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+
+        <item name="android:background">@drawable/botron_buttonfour</item>
+    </style>
+
+    <style name="btnGoogle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:text">Kết nối Google của bạn</item>
+        <item name="android:drawableRight">@drawable/ic_muiten</item>
+        <item name="android:background">@drawable/botron_button</item>
+        <item name="android:drawableLeft">@drawable/icongg</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="btnFacebook">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:text">Kết nối facebook của bạn</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:drawableRight">@drawable/ic_muiten</item>
+        <item name="android:background">@drawable/botron_buttontwo</item>
+        <item name="android:drawableLeft">@drawable/facebook</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+
+    </style>
+
+
+    <style name="bottomNavigation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">#32222B</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="bottomNavigation2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">#32222B</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="khungtieude">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">45dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/botron_buttonthree</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+    <style name="listviewNews">
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_height">420dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/botron_news2</item>
+    </style>
+
+    <style name="listviewNews2">
+        <item name="android:layout_width">340dp</item>
+        <item name="android:layout_height">420dp</item>
+        <!--        <item name="android:alpha">0.8</item>-->
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <style name="tvnews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">COFFEE</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@drawable/boitron_ic</item>
+
+    </style>
+
+    <style name="backgroundrcv">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">490dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:alpha">0.9</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:background">@drawable/background_rcv</item>
+    </style>
+
+    <style name="backgroundrcvnew">
+        <item name="android:layout_width">390dp</item>
+        <item name="android:layout_height">350dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:alpha">0.9</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/botron_buttonfour</item>
+    </style>
+
+    <style name="backgroundtvnew">
+        <item name="android:layout_width">390dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">NEWS</item>
+        <item name="android:layout_marginTop">-350dp</item>
+        <item name="android:textColor">#0E0E0E</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:color">#f89e34</item>
+        <item name="android:background">@drawable/botron_buttonchat</item>
+    </style>
+
+
+
+    <style name="backgroundtv">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">INFO</item>
+        <item name="android:layout_marginTop">-490dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:color">#f89e34</item>
+        <item name="android:background">@drawable/botron_buttonthree</item>
+    </style>
+
+    <style name="backgroundtv2">
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">INFO</item>
+        <item name="android:layout_marginTop">-490dp</item>
+        <item name="android:textColor">#0E0E0E</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:color">#f89e34</item>
+        <item name="android:background">@drawable/botron_buttonchat</item>
+    </style>
+
+
+    <style name="tvpleasewait">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Quên mật khẩu ?</item>
+    </style>
+
+    <style name="tvpleasewait2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginTop">320dp</item>
+        <item name="android:text">Vui lòng chờ...</item>
+    </style>
+
+
+    <style name="TextInput">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginTop">320dp</item>
+        <item name="android:text">Please wait...</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="btnhoidap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:drawableRight">@drawable/ic_muiten</item>
+        <item name="android:background">@drawable/botron_button</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="btngiohang">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:background">@drawable/botron_buttonfour</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/giaodiennguoidung">
+
+
+
+    <RelativeLayout
+        android:id="@+id/backgroundrcv"
+        android:layout_marginTop="50dp"
+        style="@style/backgroundrcv">
+
+
+        <ImageView
+            android:id="@+id/ggMap"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ggmap"
+            />
+
+        <ImageView
+            android:id="@+id/callphone"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/callphone"
+            />
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/chatuser2"
+            />
+        <ImageView
+            android:id="@+id/followme"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/followme4"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/backgroundtv"/>
+
+
+</LinearLayout>

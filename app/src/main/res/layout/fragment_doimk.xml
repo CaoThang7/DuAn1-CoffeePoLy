@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/giaodiennguoidung">
+
+
+    <RelativeLayout
+        android:id="@+id/backgroundrcv"
+        style="@style/backgroundrcv"
+        android:layout_marginTop="30dp">
+
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/oldpass"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="60dp"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="10dp"
+            android:hint="Nhập password cũ"
+            app:hintTextColor="@color/colorPrimaryDark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newpass"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="122dp"
+            android:drawableLeft="@drawable/padlock"
+            android:drawablePadding="10dp"
+            android:hint="Nhập password mới"
+            app:hintTextColor="@color/colorPrimaryDark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/xacnhannewpass"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="184dp"
+            android:drawableLeft="@drawable/padlock"
+            android:drawablePadding="10dp"
+            android:hint="Nhập lại password mới"
+            app:hintTextColor="@color/colorPrimaryDark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+        <Button
+            android:id="@+id/btnUpdatePass"
+            style="@style/btnTaiKhoanNguoiDung2"
+            android:text="Update"
+            android:layout_marginTop="246dp"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Đổi mật khẩu"
+        android:textColor="@color/colorBlack"
+        style="@style/backgroundtv"/>
+
+</LinearLayout>

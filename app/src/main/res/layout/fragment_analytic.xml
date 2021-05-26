@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/giaodiennguoidung"
+    android:orientation="vertical">
+
+    <!--    <com.google.android.material.appbar.AppBarLayout-->
+    <!--        android:id="@+id/bar_layout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+    <!--            android:id="@+id/toolbarMess"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:background="@color/colorPrimaryDark"-->
+    <!--            app:popupTheme="@style/MenuStyle">-->
+
+
+    <!--            <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--                android:id="@+id/profile_image"-->
+    <!--                android:layout_width="50dp"-->
+    <!--                android:layout_height="50dp"-->
+    <!--                android:src="@drawable/ic_face"/>-->
+    <!--            <TextView-->
+    <!--                android:id="@+id/username"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="Username"-->
+    <!--                android:layout_toRightOf="@id/profile_image"-->
+    <!--                android:layout_toEndOf="@id/profile_image"-->
+    <!--                android:layout_marginLeft="10dp"-->
+    <!--                android:layout_centerVertical="true"-->
+    <!--                android:textSize="18sp"-->
+    <!--                android:textColor="@color/colorWhite"-->
+    <!--                />-->
+
+    <!--        </androidx.appcompat.widget.Toolbar>-->
+
+    <!--    </com.google.android.material.appbar.AppBarLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/backgroundrcv"
+        style="@style/backgroundrcv"
+        android:layout_marginTop="50dp">
+
+
+<!--        <com.google.android.material.tabs.TabLayout-->
+<!--            android:id="@+id/tab_layout2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:background="@color/colorWhite"-->
+<!--            app:tabSelectedTextColor="@color/colorPrimaryDark"-->
+<!--            app:tabIndicatorColor="@color/colorPrimaryDark"-->
+<!--            app:tabTextColor="@color/colorPrimaryDark"-->
+<!--            />-->
+
+<!--        <androidx.viewpager2.widget.ViewPager2-->
+<!--            android:id="@+id/view_pager2"-->
+<!--            android:layout_marginTop="100dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/backgroundtv2"
+        android:text="Chat" />
+
+
+</LinearLayout>

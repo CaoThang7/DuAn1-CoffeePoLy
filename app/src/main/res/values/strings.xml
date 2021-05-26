@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DuAn1-Coffee</string>
+    <string name="facebook_app_id">826500564768936</string>
+    <string name="fb_login_protocol_scheme">fb826500564768936</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="label">abc</string>
+    <string name="title_activity_tabbb2">TabbbActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_tab_demo">TabDemoActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news1">Tình yêu Cappucino sẽ là một món quà ý nghĩa dành tặng cho những trái tim yêu thương trong dịp ngày lễ Tình nhân.</string>
+    <string name="news2">một tách Americano vào buổi sáng sẽ đem lại khá nhiều năng lượng cho một ngày làm việc hiệu quả.</string>
+    <string name="news3">Sự kết hợp hoàn hảo giữa vị đắng nhẹ của cafe espresso. Vị béo ngậy của sữa đánh nóng cùng caramel thơm ngọt ngào.</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+</resources>

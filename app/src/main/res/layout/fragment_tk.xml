@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/giaodiennguoidung">
+
+
+    <RelativeLayout
+        android:id="@+id/backgroundrcv"
+        style="@style/backgroundrcv"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/ic_face"/>
+
+        <!--                <com.google.android.material.textfield.TextInputEditText-->
+        <!--                    android:id="@+id/fullname"-->
+        <!--                    style="@style/btnTaiKhoanNguoiDung"-->
+        <!--                    android:drawableLeft="@drawable/ic_faceuser"-->
+        <!--                    android:drawablePadding="10dp"-->
+        <!--                    android:text="Full Name"-->
+        <!--                    app:hintTextColor="@color/colorPrimaryDark">-->
+
+        <!--                </com.google.android.material.textfield.TextInputEditText>-->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tkUser"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="122dp"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="10dp"
+            android:text="Username"
+            app:hintTextColor="@color/colorSecondary">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailUser"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="188dp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:text="Email"
+            android:enabled="false"
+            app:hintTextColor="@color/colorPrimaryDark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sdtUser"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="254dp"
+            android:drawableLeft="@drawable/telephone"
+            android:drawablePadding="10dp"
+            android:text="Phone"
+            app:hintTextColor="@color/colorPrimaryDark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passUser"
+            style="@style/btnTaiKhoanNguoiDung"
+            android:layout_marginTop="320dp"
+            android:drawableLeft="@drawable/padlock"
+            android:drawablePadding="10dp"
+            android:text="Password"
+            android:enabled="false"
+            app:hintTextColor="@color/colorPrimaryDark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <Button
+            android:id="@+id/btnUpdateUser"
+            style="@style/btnTaiKhoanNguoiDung2"
+            android:text="Update"
+            android:layout_marginTop="386dp"
+
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Tài Khoản"
+        android:textColor="@color/colorBlack"
+        style="@style/backgroundtv"/>
+
+</LinearLayout>

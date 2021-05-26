@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/manhinhchao">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:text="Đăng Nhập"
+        style="@style/TextTieuDe" />
+
+    <EditText
+        android:id="@+id/tvEmail"
+        style="@style/EditLogin"/>
+
+    <EditText
+        android:id="@+id/tvPassword"
+        style="@style/EditLogin2"
+        android:inputType="textPassword"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnDangNhap"
+            style="@style/btnDangNhap"/>
+        <Button
+            android:id="@+id/btnDangKi"
+            style="@style/btnDangKi" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        style="@style/btnGoogle" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        style="@style/btnFacebook" />
+    <TextView
+        android:id="@+id/tvquenmatkhauu"
+        style="@style/tvpleasewait" />
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/analytic"
+    android:icon="@drawable/chat_admin"
+    android:title="Chat"/>
+
+    <item android:id="@+id/analysis"
+        android:icon="@drawable/ic_analysis"
+        android:title="Analysis"/>
+
+    <item android:id="@+id/product"
+        android:icon="@drawable/info"
+        android:title="Product"/>
+
+    <item android:id="@+id/order_state"
+        android:icon="@drawable/ic_order_state"
+        android:title="Order"/>
+
+    <item android:id="@+id/user"
+        android:icon="@drawable/user"
+        android:title="User"/>
+
+</menu>

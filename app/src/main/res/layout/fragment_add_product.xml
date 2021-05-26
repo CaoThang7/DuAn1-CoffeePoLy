@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:id="@+id/fragment_add_product_change">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/edtProductName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter ProductName" />
+
+        <EditText
+            android:id="@+id/edtProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtProductName"
+            android:hint="Enter Product Price" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edtProductPrice"/>
+
+        <Button
+            android:id="@+id/btnChooseImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Choose Image"
+            android:layout_below="@+id/spinner"/>
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="250dp"
+            android:layout_below="@id/btnChooseImage"
+            android:layout_marginTop="16dp" />
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_above="@+id/btnUpload"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnUpload"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Upload" />
+        <TextView
+            android:id="@+id/tvShowProducts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnUpload"
+            android:layout_alignTop="@+id/btnUpload"
+            android:layout_marginStart="25dp"
+            android:layout_toEndOf="@+id/btnUpload"
+            android:gravity="center"
+            android:text="Show Products"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</FrameLayout>

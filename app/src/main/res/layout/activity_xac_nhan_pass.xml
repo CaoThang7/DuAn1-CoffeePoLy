@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="30dp"
+    tools:context=".XacNhanPassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_face"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/set_new_password_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/padlock" />
+
+
+        <TextView
+            android:id="@+id/set_new_password_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:text="KKKKKKKK"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/set_new_password_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="abc"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/new_password"
+                style="@style/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="enter_phone_number"
+                android:textColorHint="@color/colorBlack"
+                app:boxBackgroundColor="@color/colorWhite"
+                app:boxStrokeColor="@color/colorBlack"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorBlack"
+                app:startIconDrawable="@drawable/padlock"
+                app:hintTextColor="@color/colorBlack"
+                android:paddingLeft="10dp"
+                app:startIconTint="@color/colorBlack">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorWhite"
+                    android:inputType="textPassword" />
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/confirm_password"
+                    style="@style/btnSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/new_password"
+                    android:layout_marginTop="10dp"
+                    android:hint="enter_phone_number"
+                    android:textColorHint="@color/colorBlack"
+                    app:boxBackgroundColor="@color/colorWhite"
+                    app:boxStrokeColor="@color/colorBlack"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/colorBlack"
+                    app:startIconDrawable="@drawable/padlock"
+                    app:hintTextColor="@color/colorBlack"
+                    android:paddingLeft="10dp"
+                    app:startIconTint="@color/colorBlack">
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/colorWhite"
+                        android:inputType="textPassword" />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <Button
+                        android:id="@+id/set_new_password_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/confirm_password"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/colorPrimary"
+                        android:text="Update" />
+
+
+                  </RelativeLayout>
+
+
+                 </LinearLayout>
+                 </ScrollView>

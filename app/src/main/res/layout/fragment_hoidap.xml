@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/success_message_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="Bạn gặp vấn đề gì?"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="30sp" />
+
+<!--           <TextView-->
+<!--               android:id="@+id/ed1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableRight="@drawable/ic_muitenright"-->
+<!--            android:text="abc"/>-->
+
+            <Button
+                android:id="@+id/btn1"
+                android:text="Lỗi xác thực "
+                style="@style/btnhoidap" />
+            <Button
+                android:id="@+id/btn2"
+                android:text="Cần những gì để xác thực tài khoản "
+                style="@style/btnhoidap" />
+            <Button
+                android:id="@+id/btn3"
+                android:text="Tôi muốn thay đổi thông tin như thế nào?"
+                style="@style/btnhoidap" />
+            <Button
+                android:id="@+id/btn4"
+                android:text="Sản phẩm có chất lượng không? Order và ship ổn không? "
+                style="@style/btnhoidap" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

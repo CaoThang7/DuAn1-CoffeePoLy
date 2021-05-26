@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/abc"
+            android:icon="@drawable/user"
+            android:title="Tài Khoản" />
+        <item
+            android:id="@+id/abcd"
+            android:icon="@drawable/key"
+            android:title="Đổi mật khẩu"/>
+        <item
+            android:id="@+id/thongtin"
+            android:icon="@drawable/infoanimation2"
+            android:title="Thông tin"/>
+        <item
+            android:id="@+id/hoidap"
+            android:icon="@drawable/question"
+            android:title="Hỏi đáp"/>
+
+        <item
+            android:id="@+id/abcde"
+            android:icon="@drawable/log_out"
+            android:title="Log out"
+            />
+
+    </group>
+
+
+</menu>
